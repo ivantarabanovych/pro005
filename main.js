@@ -1,5 +1,8 @@
-let name = "Ivan"
-let age = 21;
-let description = (`Мене звати ${name}, мій вік ${age}`);
-console.log(description);
-console.log(typeof description);
+const person = {
+    name: "Ivan",
+    age: 21,
+    isStudent: true,
+    heigth: 170
+};
+
+console.log(person);
